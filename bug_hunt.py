@@ -1,5 +1,5 @@
 # Get the grade from the user as input  
-user_grade = input("Enter your grade: ")   
+user_grade = int(input("Enter your grade: ")   )
 
 # Determine the grade symbol based on the user's input  
 if user_grade >= 90:  # Check if the grade is 90 or above  
